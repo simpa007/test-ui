@@ -1,0 +1,18 @@
+.navbar-1 {
+  background-color: #093399 !important;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.btn-2 {
+  background-color: #1154fd;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.btn-2:hover {
+  background-color: #fff;
+  color: #1154fd;
+}

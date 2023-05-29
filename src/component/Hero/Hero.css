@@ -1,0 +1,121 @@
+.hero {
+  background-color: #093399;
+}
+
+.hero-section {
+  color: #fff;
+  padding: 100px 0px 0px 100px;
+}
+
+.header {
+  width: 50%;
+  font-size: 50px;
+  font-weight: 700;
+}
+.sub-header {
+  width: 50%;
+  margin-top: 25px;
+}
+.form-input {
+  margin-top: 25px;
+  position: relative;
+  width: 70%;
+  /* border: 2px solid green; */
+}
+.form-control {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #759bfc;
+  color: #fff;
+  border: none;
+}
+.form-input > .search {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.form-input > .form-control {
+  padding-left: 60px;
+}
+.submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #1154fd;
+  color: #fff;
+  border: none;
+  width: 40%;
+}
+.second {
+  position: relative;
+}
+
+.girl-img {
+  position: relative;
+  top: 45px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.outer-border {
+  position: absolute;
+  top: 120px;
+  right: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 80px;
+  background-color: #edeff3;
+  border-radius: 10px;
+}
+.inner-border-3 {
+  width: 40%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #f8872b;
+  position: relative;
+}
+.icons {
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.outer-border-2 {
+  position: absolute;
+  bottom: 120px;
+  right: -80px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+  background-color: #edeff3;
+  border-radius: 10px;
+}
+
+.inner-border-2 {
+  width: 20%;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.icons-2 {
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f8872b;
+}
