@@ -23,11 +23,14 @@ export default function Section() {
           </p>
         </div>
         <div
-          className="row g-4 mt-4"
+          className="row row-cols-1 row-cols-md-3 g-4 mt-4"
           // style={{ border: "3px solid yellow" }}
         >
           <div className="col">
-            <div class="card h-100 text-center mb-3" style={{ width: "18rem" }}>
+            <div
+              class="card my-card h-100 text-center mb-3"
+              style={{ width: "18rem" }}
+            >
               <div className="my-cardIcon">
                 <CiReceipt className="my-icon" size={35} />
               </div>
@@ -43,7 +46,10 @@ export default function Section() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 text-center mb-3" style={{ width: "18rem" }}>
+            <div
+              class="card my-card h-100 text-center mb-3"
+              style={{ width: "18rem" }}
+            >
               <div className="my-cardIcon-1">
                 <GiTeacher className="my-icon" size={35} />
               </div>
@@ -59,7 +65,10 @@ export default function Section() {
             </div>
           </div>
           <div class="col">
-            <div class="card h-100 text-center mb-3" style={{ width: "18rem" }}>
+            <div
+              class="card my-card h-100 text-center mb-3"
+              style={{ width: "18rem" }}
+            >
               <div className="my-cardIcon-2">
                 <FaGraduationCap className="my-icon" size={35} />
               </div>

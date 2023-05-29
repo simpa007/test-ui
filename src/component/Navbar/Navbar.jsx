@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { CiShoppingCart } from "react-icons/ci";
 import { FaGraduationCap } from "react-icons/fa";
-//  <i class="icon-ok" style="font-size:30px; vertical-align: middle;"></i>;
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg  navbar-dark navbar-1">
@@ -67,9 +67,13 @@ export default function Navbar() {
               >
                 Sign in
               </button>
-              <button class="btn  btn-secondary mx-3 btn-2" type="button">
+              <Link
+                to="/sign-up"
+                class="btn  btn-secondary mx-3 btn-2"
+                type="button"
+              >
                 Join Academy
-              </button>
+              </Link>
             </form>
           </nav>
         </div>
